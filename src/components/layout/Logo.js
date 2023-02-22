@@ -32,7 +32,7 @@ function Logo() {
                             <FaLinkedin/>
                         </a>
                     </li>
-                </ul>                
+                </ul>
             </div>
         </div>
         

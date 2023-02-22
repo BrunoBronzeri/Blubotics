@@ -4,6 +4,10 @@
     background-color: #272727;
 }
 
+.logo img {
+    width: 300px;
+}
+
 .logo a {
     margin-left: 5%;
 }
@@ -15,11 +19,12 @@
     text-align: center;
     box-sizing: border-box;
     margin-right: 4em;
+    gap: 1em;
 }
 
 .social_list li {
     margin: 0 0.5em;
-    margin-top: 38%;
+    margin-top: 20%;
 }
 
 .social_list a {
@@ -35,12 +40,16 @@
     cursor: pointer;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 630px) {
     .social_list {
         display: none;
     }
 
     .logo {
         color: none;
+    }
+
+    .logo img {
+        width: 200px;
     }
 }
