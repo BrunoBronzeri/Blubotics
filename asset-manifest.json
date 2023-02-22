@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Blubotics/static/css/main.19405ce3.css",
+    "main.css": "/Blubotics/static/css/main.7e85cab6.css",
     "main.js": "/Blubotics/static/js/main.4fd6079b.js",
     "static/media/paisagem.png": "/Blubotics/static/media/paisagem.dd6711b632e602da01c1.png",
     "static/media/profilepic.png": "/Blubotics/static/media/profilepic.c3f945216dc12c9498dc.png",
     "static/media/backdrop.png": "/Blubotics/static/media/backdrop.021732914b000072c4b5.png",
     "static/media/logo_blub.png": "/Blubotics/static/media/logo_blub.5e6201e1c5d6b0a774ae.png",
     "index.html": "/Blubotics/index.html",
-    "main.19405ce3.css.map": "/Blubotics/static/css/main.19405ce3.css.map",
+    "main.7e85cab6.css.map": "/Blubotics/static/css/main.7e85cab6.css.map",
     "main.4fd6079b.js.map": "/Blubotics/static/js/main.4fd6079b.js.map"
   },
   "entrypoints": [
-    "static/css/main.19405ce3.css",
+    "static/css/main.7e85cab6.css",
     "static/js/main.4fd6079b.js"
   ]
 }
