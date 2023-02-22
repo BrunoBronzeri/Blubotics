@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/blubotics/static/css/main.39002a30.css",
+    "main.js": "/blubotics/static/js/main.a58eec33.js",
+    "static/media/notfound.png": "/blubotics/static/media/notfound.61ac90aa532d51a8a91d.png",
+    "static/media/profilepic.png": "/blubotics/static/media/profilepic.c3f945216dc12c9498dc.png",
+    "static/media/backdrop.png": "/blubotics/static/media/backdrop.021732914b000072c4b5.png",
+    "static/media/logo_blub.png": "/blubotics/static/media/logo_blub.5e6201e1c5d6b0a774ae.png",
+    "index.html": "/blubotics/index.html",
+    "main.39002a30.css.map": "/blubotics/static/css/main.39002a30.css.map",
+    "main.a58eec33.js.map": "/blubotics/static/js/main.a58eec33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39002a30.css",
+    "static/js/main.a58eec33.js"
+  ]
+}
