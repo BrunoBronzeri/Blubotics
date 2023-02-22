@@ -1,0 +1,46 @@
+.logo {
+    display: flex;
+    justify-content: space-between;
+    background-color: #272727;
+}
+
+.logo a {
+    margin-left: 5%;
+}
+
+.social_list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: 4em;
+}
+
+.social_list li {
+    margin: 0 0.5em;
+    margin-top: 38%;
+}
+
+.social_list a {
+    color: whitesmoke;
+}
+
+.social_list a:hover {
+    color: #255e90;
+}
+
+.social_list svg {
+    font-size: 2em;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .social_list {
+        display: none;
+    }
+
+    .logo {
+        color: none;
+    }
+}
