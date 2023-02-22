@@ -108,4 +108,13 @@
     .card_below {
         display: none;
     }
+    .doc h1 {
+        font-size: 1.5em;
+        border-bottom: 1px solid #272727;
+    }
+    .doc p {
+        font-size: 0.8em;
+        margin-right: 4em;
+        margin-left: 5em;
+    }
 }
