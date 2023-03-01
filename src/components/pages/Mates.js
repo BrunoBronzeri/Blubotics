@@ -11,7 +11,7 @@ function Mates() {
                     <img src={profile} alt='pic'/>
                     <div>
                         <h2>Nome Sobrenome</h2>
-                        <p1>Função na equipe</p1>
+                        <h3>Função na equipe</h3>
                         <ul>
                             <li><FaLinkedin /></li>
                             <li><FaInstagram /></li>
@@ -22,7 +22,7 @@ function Mates() {
                 <img src={profile} alt='pic'/>
                     <div>
                         <h2>Nome Sobrenome</h2>
-                        <p1>Função na equipe</p1>
+                        <h3>Função na equipe</h3>
                         <ul>
                             <li><FaLinkedin /></li>
                             <li><FaInstagram /></li>
@@ -35,7 +35,7 @@ function Mates() {
                     <img src={profile} alt='pic'/>
                     <div>
                         <h2>Nome Sobrenome</h2>
-                        <p1>Função na equipe</p1>
+                        <h3>Função na equipe</h3>
                         <ul>
                             <li><FaLinkedin /></li>
                             <li><FaInstagram /></li>
@@ -46,7 +46,7 @@ function Mates() {
                     <img src={profile} alt='pic'/>
                     <div>
                         <h2>Nome Sobrenome</h2>
-                        <p1>Função na equipe</p1>
+                        <h3>Função na equipe</h3>
                         <ul>
                             <li><FaLinkedin /></li>
                             <li><FaInstagram /></li>
@@ -57,7 +57,7 @@ function Mates() {
                     <img src={profile} alt='pic'/>
                     <div>
                         <h2>Nome Sobrenome</h2>
-                        <p1>Função na equipe</p1>
+                        <h3>Função na equipe</h3>
                         <ul>
                             <li><FaLinkedin /></li>
                             <li><FaInstagram /></li>
@@ -68,7 +68,7 @@ function Mates() {
                     <img src={profile} alt='pic'/>
                     <div>
                         <h2>Nome Sobrenome</h2>
-                        <p1>Função na equipe</p1>
+                        <h3>Função na equipe</h3>
                         <ul>
                             <li><FaLinkedin /></li>
                             <li><FaInstagram /></li>
@@ -79,7 +79,7 @@ function Mates() {
                     <img src={profile} alt='pic'/>
                     <div>
                         <h2>Nome Sobrenome</h2>
-                        <p1>Função na equipe</p1>
+                        <h3>Função na equipe</h3>
                         <ul>
                             <li><FaLinkedin /></li>
                             <li><FaInstagram /></li>
@@ -90,7 +90,7 @@ function Mates() {
                     <img src={profile} alt='pic'/>
                     <div>
                         <h2>Nome Sobrenome</h2>
-                        <p1>Função na equipe</p1>
+                        <h3>Função na equipe</h3>
                         <ul>
                             <li><FaLinkedin /></li>
                             <li><FaInstagram /></li>

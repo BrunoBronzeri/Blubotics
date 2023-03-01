@@ -12,7 +12,6 @@ import Projects from './components/pages/Projects';
 import Team from './components/pages/Team';
 
 
-
 function App() {
   return (
     <Router>

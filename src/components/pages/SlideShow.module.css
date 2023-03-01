@@ -1,0 +1,83 @@
+.container {
+    width: 100%;
+    max-width: 2500px;
+    height: 50%;
+    background-color: #181818;
+    display: flex;
+    position: relative;
+}
+
+.carousel {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.item {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+}
+
+.item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.item p {
+    background-color: #013562aa;
+    position: absolute;
+    inset: auto 0 0 0;
+    padding-block: 1rem;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+@media (width < 500px) {
+    .btn_l,
+    .btn_r {
+        display: none;
+    }
+}
+
+.btn_l {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    transform: rotate(45deg);
+    z-index: 2;
+    top: 50%;
+    cursor: pointer;
+
+    border-bottom: 4px solid #272727;
+    border-left: 4px solid #272727;
+    left: 20px;
+}
+
+.btn_r {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    transform: rotate(45deg);
+    z-index: 2;
+    top: 50%;
+    cursor: pointer;
+
+    border-right: 4px solid #272727;
+    border-top: 4px solid #272727;
+    right: 20px;
+}
+
+::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+
+

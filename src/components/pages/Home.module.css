@@ -1,6 +1,11 @@
-.main img {
-    /* width: 1263px; */
-    border-radius: 4px;
-    /* margin-top: 5em;
-    margin-left: 43em; */
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
