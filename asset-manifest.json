@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Blubotics/static/css/main.055fabe4.css",
-    "main.js": "/Blubotics/static/js/main.409a7a56.js",
+    "main.css": "/Blubotics/static/css/main.1688aec4.css",
+    "main.js": "/Blubotics/static/js/main.3ac383f4.js",
     "static/media/paisagem.png": "/Blubotics/static/media/paisagem.dd6711b632e602da01c1.png",
     "static/media/paisagem02.png": "/Blubotics/static/media/paisagem02.e4b8fcee5b49acf300f3.png",
     "static/media/paisagem01.png": "/Blubotics/static/media/paisagem01.110619b496e0766135f0.png",
@@ -10,11 +10,11 @@
     "static/media/backdrop.png": "/Blubotics/static/media/backdrop.021732914b000072c4b5.png",
     "static/media/logo_blub.png": "/Blubotics/static/media/logo_blub.5e6201e1c5d6b0a774ae.png",
     "index.html": "/Blubotics/index.html",
-    "main.055fabe4.css.map": "/Blubotics/static/css/main.055fabe4.css.map",
-    "main.409a7a56.js.map": "/Blubotics/static/js/main.409a7a56.js.map"
+    "main.1688aec4.css.map": "/Blubotics/static/css/main.1688aec4.css.map",
+    "main.3ac383f4.js.map": "/Blubotics/static/js/main.3ac383f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.055fabe4.css",
-    "static/js/main.409a7a56.js"
+    "static/css/main.1688aec4.css",
+    "static/js/main.3ac383f4.js"
   ]
 }
