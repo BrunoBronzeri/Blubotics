@@ -10,7 +10,7 @@ function NavLinks(props) {
         <ul className={styles.list}>
             <li className={styles.item}
                 onClick={() => props.isMobile && props.closeMobileMenu()}>
-                <Link to='/'>Home</Link>
+                <Link to='/Blubotics'>Home</Link>
             </li>
             <li className={styles.item}
                 onClick={() => props.isMobile && props.closeMobileMenu()}>

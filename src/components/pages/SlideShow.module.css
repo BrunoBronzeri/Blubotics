@@ -37,7 +37,9 @@
     padding-block: 1rem;
     text-align: center;
     color: whitesmoke;
-    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
 }
 
 @media (width < 500px) {
@@ -79,5 +81,3 @@
     height: 0;
     width: 0;
 }
-
-

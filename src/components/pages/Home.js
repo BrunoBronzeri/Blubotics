@@ -1,5 +1,4 @@
 import styles from './Home.module.css'
-// import not from '../../images/paisagem.png'
 
 import SlideShow from "./SlideShow";
 import data from './DataImages'

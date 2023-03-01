@@ -7,7 +7,7 @@ import { FaFacebook, FaInstagram, FaYoutube, FaLinkedin } from 'react-icons/fa'
 function Logo() {
     return (
         <div className={styles.logo}>
-            <Link to='/'>
+            <Link to='/Blubotics'>
                 <img src={logo} alt='Blubotics' />
             </Link>
             <div>
