@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Blubotics/static/css/main.3072ca8a.css",
-    "main.js": "/Blubotics/static/js/main.930d238c.js",
+    "main.js": "/Blubotics/static/js/main.ddd3590e.js",
     "static/media/paisagem.png": "/Blubotics/static/media/paisagem.dd6711b632e602da01c1.png",
     "static/media/paisagem02.png": "/Blubotics/static/media/paisagem02.e4b8fcee5b49acf300f3.png",
     "static/media/paisagem01.png": "/Blubotics/static/media/paisagem01.110619b496e0766135f0.png",
@@ -11,10 +11,10 @@
     "static/media/logo_blub.png": "/Blubotics/static/media/logo_blub.5e6201e1c5d6b0a774ae.png",
     "index.html": "/Blubotics/index.html",
     "main.3072ca8a.css.map": "/Blubotics/static/css/main.3072ca8a.css.map",
-    "main.930d238c.js.map": "/Blubotics/static/js/main.930d238c.js.map"
+    "main.ddd3590e.js.map": "/Blubotics/static/js/main.ddd3590e.js.map"
   },
   "entrypoints": [
     "static/css/main.3072ca8a.css",
-    "static/js/main.930d238c.js"
+    "static/js/main.ddd3590e.js"
   ]
 }
