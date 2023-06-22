@@ -6,15 +6,15 @@ import p4 from '../../images/paisagem03.png'
 const data = [
     {
         src: p1,
-        title: '1st Funcionou'
+        title: 'slide show'
     },
     {
         src: p2,
-        title: '2nd Essa'
+        title: 'finalmente'
     },
     {
         src: p3,
-        title: '3rd Merda'
+        title: 'está funcionando'
     },
     {
         src: p4,

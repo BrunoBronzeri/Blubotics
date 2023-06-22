@@ -22,7 +22,6 @@ function Team() {
                 Nulla facilisi. 
                 Proin sagittis nibh eget 
                 diam iaculis hendrerit.
-
             </p>
             <h1>Membros</h1>
             <div>

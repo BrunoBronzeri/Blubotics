@@ -1,0 +1,23 @@
+.doc {
+    background-color: #0f142adf;
+    background-color: whitesmoke;
+    margin: 1.5em;
+    border-radius: 4px;
+    box-shadow: 2px 4px 8px 4px #272727d7;
+}
+
+.doc h1 {
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-top: 1em;
+    border-bottom: 2px solid #272727;
+    color: #272727;
+}
+
+.doc p {
+    font-size: 1.8em;
+    margin-right: 2em;
+    margin-left: 5em;
+    margin-top: 0.5em;
+    color: #272727;
+}
