@@ -22,11 +22,11 @@
 }
 
 .info h1 {
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 .info p {
-   font-size: 1.25em;
+   font-size: 1em;
 }
 
 .info li {
@@ -44,7 +44,7 @@
     display: flex;
     justify-content: center;
     list-style-type: none;
-    font-size: 1.25em;
+    font-size: .8em;
     margin-top: 0.5em;
 }
 
@@ -60,7 +60,7 @@
     color: #255e90;
 }
 .social_list svg {
-    font-size: 1.5em;
+    font-size: 1.8em;
     cursor: pointer;
 }
 
