@@ -43,6 +43,8 @@ function SlideShow({ images }) {
 
     return (
         <div className={styles.container}>
+            <div className={styles.padd_x} onClick={() => Incremet(-1)} />
+            <div className={styles.padd_y} onClick={() => Incremet(1)} />
             <div className={styles.btn_l} onClick={() => Incremet(-1)} />
             <div className={styles.btn_r} onClick={() => Incremet(1)} />
 

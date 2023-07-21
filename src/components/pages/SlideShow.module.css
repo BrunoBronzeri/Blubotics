@@ -39,14 +39,54 @@
     color: whitesmoke;
     display: flex;
     justify-content: center;
-    font-size: 1.8rem;
+    font-size: 1.25rem;
+    z-index: 4;
+}
+
+@media (width < 700px) {
+    
+    .item p {
+        background-color: #013562aa;
+        position: absolute;
+        inset: auto 0 0 0;
+        padding-block: 1rem;
+        text-align: center;
+        color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        font-size: 0.8rem;
+        z-index: 4;
+    }
 }
 
 @media (width < 500px) {
     .btn_l,
-    .btn_r {
+    .btn_r,
+    .padd_x,
+    .padd_y {
         display: none;
     }
+}
+
+.padd_x {
+    height: 100%;
+    width: 55px;
+    border-radius: 2px;
+    position: absolute;
+    background-color: #ffffff3f;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.padd_y {
+    height: 100%;
+    width: 45px;
+    border-radius: 2px;
+    position: absolute;
+    background-color: #ffffff3f;
+    cursor: pointer;
+    z-index: 2;
+    right: 0px;
 }
 
 .btn_l {
@@ -54,10 +94,8 @@
     width: 30px;
     position: absolute;
     transform: rotate(45deg);
-    z-index: 2;
+    z-index: 3;
     top: 50%;
-    cursor: pointer;
-
     border-bottom: 4px solid #272727;
     border-left: 4px solid #272727;
     left: 20px;
@@ -68,10 +106,8 @@
     width: 30px;
     position: absolute;
     transform: rotate(45deg);
-    z-index: 2;
+    z-index: 3;
     top: 50%;
-    cursor: pointer;
-
     border-right: 4px solid #272727;
     border-top: 4px solid #272727;
     right: 20px;

@@ -4,7 +4,7 @@ function Competition() {
     return (
         <div className={styles.doc}>
             <h1>Competições</h1>
-            <p>working on it...</p>
+            <p>olá, mundo!!</p>
         </div>
     );
 }
