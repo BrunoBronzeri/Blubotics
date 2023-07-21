@@ -10,6 +10,13 @@
     margin-left: 2em;
     margin-right: 2em;
     padding-top: 1em;
+    color: #272727;
+}
+
+.doc h2 {
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-top: 1em;
     border-bottom: 2px solid #272727;
     color: #272727;
 }

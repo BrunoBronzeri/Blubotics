@@ -1,7 +1,10 @@
+import styles from './Competition.module.css'
+
 function Competition() {
     return (
-        <div>
-            <p>COMPETIÇÕES</p>
+        <div className={styles.doc}>
+            <h1>Competições</h1>
+            <p>working on it...</p>
         </div>
     );
 }
