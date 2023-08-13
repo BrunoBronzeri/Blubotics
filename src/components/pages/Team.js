@@ -8,21 +8,10 @@ function Team() {
         <div className={styles.doc}>
             <h1>História da Equipe</h1>
             <p>
-                Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit. 
-                Sed sit amet ante leo. In quam diam, 
-                faucibus quis laoreet ac, 
-                rhoncus non justo. Mauris vulputate ac ex 
-                vitae ultricies. Phasellus odio nunc, 
-                feugiat ac leo a, gravida venenatis tortor. 
-                Aliquam tempor pulvinar diam. Phasellus nec
-                tellus gravida, feugiat justo ut, 
-                consequat tortor. Sed ut lacus egestas, 
-                mattis sem a, hendrerit tellus. 
-                Nulla facilisi. 
-                Proin sagittis nibh eget 
-                diam iaculis hendrerit.
-            </p>
+                Equipe de Robótica da <a href=''>Universidade Federal de Santa Catarina - Campus Blumenau</a>, Blubotics, foi fundada no dia 30 
+                de Agosto de 2022, sob orientação do <a href=''> Prof. Dr. Marcos Vinícius Matsuo</a>, como iniciativa de dicentes da graduação 
+                de Engenharia de Controle e Automação. Intuito.......
+            </p>            
             <h1>Membros</h1>
             <div>
                 <Mates />
@@ -30,14 +19,9 @@ function Team() {
             </div>
             <h1>Quer fazer parte da equipe?</h1>
             <p>
-                Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit. 
-                Sed sit amet ante leo. In quam diam, 
-                faucibus quis laoreet ac, 
-                rhoncus non justo. Mauris vulputate ac ex 
-                vitae ultricies. Phasellus odio nunc, 
-                feugiat ac leo a, gravida venenatis tortor. 
-                Aliquam tempor pulvinar diam.
+                Fique atento às atualizações na página do Instagram da equipe clicando no botão abaixo. Por lá é possível saber
+                 não só quando ocorrerão processos seletivos, mas também ficar por dentro das novidades, novos projetos e datas de competições. 
+                 Aguardamos você lá!
             </p>
             <div className={styles.btn}>
                 <button>

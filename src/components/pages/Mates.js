@@ -10,8 +10,8 @@ function Mates() {
                 <div className={styles.card}>
                     <img src={profile} alt='pic'/>
                     <div>
-                        <h2>Nome Sobrenome</h2>
-                        <h3>Função na equipe</h3>
+                        <h2>Marcos V. Matsuo</h2>
+                        <h3>Prof. Oreintador</h3>
                         <ul>
                             <li><FaLinkedin /></li>
                             <li><FaInstagram /></li>
@@ -21,8 +21,8 @@ function Mates() {
                 <div className={styles.card}>
                 <img src={profile} alt='pic'/>
                     <div>
-                        <h2>Nome Sobrenome</h2>
-                        <h3>Função na equipe</h3>
+                        <h2>Bruno B. Bronzeri</h2>
+                        <h3>Representante</h3>
                         <ul>
                             <li><FaLinkedin /></li>
                             <li><FaInstagram /></li>

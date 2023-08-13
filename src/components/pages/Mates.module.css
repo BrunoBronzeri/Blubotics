@@ -15,11 +15,17 @@
 }
 
 .doc p {
-    font-size: 1.8em;
-    margin-right: 2em;
-    margin-left: 5em;
+    font-size: 1.5em;
+    margin-right: 3em;
+    margin-left: 4.5em;
     margin-top: 0.5em;
     color: #272727;
+    text-align: justify;
+}
+
+.doc a {
+    text-decoration: none;
+    color: rgb(66, 66, 213);
 }
 
 .container {
@@ -121,6 +127,6 @@
     .doc p {
         font-size: 1em;
         margin-right: 4em;
-        margin-left: 5em;
+        margin-left: 4.5em;
     }
 }
