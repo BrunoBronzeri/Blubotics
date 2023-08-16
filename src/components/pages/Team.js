@@ -8,7 +8,7 @@ function Team() {
         <div className={styles.doc}>
             <h1>História da Equipe</h1>
             <p>
-                Equipe de Robótica da <a href=''>Universidade Federal de Santa Catarina - Campus Blumenau</a>, Blubotics, foi fundada no dia 30 
+                A Equipe de Robótica da <a href='https://blumenau.ufsc.br'>Universidade Federal de Santa Catarina - Campus Blumenau</a>, Blubotics, foi fundada no dia 30 
                 de Agosto de 2022, sob orientação do <a href=''> Prof. Dr. Marcos Vinícius Matsuo</a>, como iniciativa de dicentes da graduação 
                 de Engenharia de Controle e Automação. Intuito.......
             </p>            
