@@ -24,8 +24,16 @@ function Mates() {
                         <h2>Bruno B. Bronzeri</h2>
                         <h3>Representante</h3>
                         <ul>
-                            <li><FaLinkedin /></li>
-                            <li><FaInstagram /></li>
+                            <li>
+                                <a href='https://www.linkedin.com/in/bruno-bueno-bronzeri-261b51219/'>
+                                    <FaLinkedin />
+                                </a>
+                            </li>
+                            <li>
+                                <a href='https://www.instagram.com/bruno.bronzeri/'>
+                                    <FaInstagram />
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>

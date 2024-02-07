@@ -10,8 +10,8 @@ function MatesMobile() {
                 <div className={styles.card}>
                     <img src={profile} alt='pic'/>
                     <div>
-                        <h2>Nome Sobrenome</h2>
-                        <h3>Função na equipe</h3>
+                        <h2>Marcos V. Matsuo</h2>
+                        <h3>Prof. Oreintador</h3>
                         <ul>
                             <li><FaLinkedin /></li>
                             <li><FaInstagram /></li>
@@ -21,11 +21,19 @@ function MatesMobile() {
                 <div className={styles.card}>
                     <img src={profile} alt='pic'/>
                     <div>
-                        <h2>Nome Sobrenome</h2>
-                        <h3>Função na equipe</h3>
+                        <h2>Bruno B. Bronzeri</h2>
+                        <h3>Representante</h3>
                         <ul>
-                            <li><FaLinkedin /></li>
-                            <li><FaInstagram /></li>
+                            <li>
+                                <a href='https://www.linkedin.com/in/bruno-bueno-bronzeri-261b51219/'>
+                                    <FaLinkedin />
+                                </a>
+                            </li>
+                            <li>
+                                <a href='https://www.instagram.com/bruno.bronzeri/'>
+                                    <FaInstagram />
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>

@@ -6,12 +6,18 @@ import styles from './Mates.module.css'
 function Team() {
     return (
         <div className={styles.doc}>
-            <h1>História da Equipe</h1>
+            <h1>A Equipe</h1>
             <p>
                 A Equipe de Robótica da <a href='https://blumenau.ufsc.br'>Universidade Federal de Santa Catarina - Campus Blumenau</a>, Blubotics, foi fundada no dia 30 
-                de Agosto de 2022, sob orientação do <a href=''> Prof. Dr. Marcos Vinícius Matsuo</a>, como iniciativa de dicentes da graduação 
-                de Engenharia de Controle e Automação. Intuito.......
-            </p>            
+                de Agosto de 2022. Sob orientação do <a href='add'> Prof. Dr. Marcos Vinícius Matsuo</a>, a equipe surgiu como iniciativa de dicentes da graduação 
+                de Engenharia de Controle e Automação. 
+            </p>
+            <p>
+                Os integrantes da equipe ao desenvolverem os projetos, têm a possibilidade de adquirir maior experiência de trabalho em grupo, 
+                tal como colocar em prática diversos conhecimentos de engenharia adquiridos ao longo da graduação, possibilitando que os mesmos se formem mais preparados
+                para a vda profissional. Além disso, os mecanismos robóticos elaborados e construídos pela equipe são acirradamente colocados à prova em 
+                competições de robótica nacionais e internacionais, podendo proporcionar grande reconhecimento da instituição e seus integrantes.
+            </p>           
             <h1>Membros</h1>
             <div>
                 <Mates />

@@ -48,7 +48,8 @@
 
 .profile h2,
 .profile h3,
-.profile li {
+.profile li,
+.profile a {
     color: #a8a9b9;
 }
 
@@ -82,7 +83,8 @@
 }
 
 .card li:hover,
-.card_below li:hover {
+.card_below li:hover,
+.card a:hover {
     color: #013462;
 }
 

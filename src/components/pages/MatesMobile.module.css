@@ -17,6 +17,8 @@
 }
 
 .profile h2,
+.profile h3,
+.profile a,
 .profile p1,
 .profile li {
     color: #a8a9b9;
@@ -45,7 +47,8 @@
     transition: 0.3s ease;
 }
 
-.card li:hover {
+.card li:hover,
+.card a:hover {
     color: #013462;
 }
 

@@ -21,6 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
+    "dev": "vite",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
