@@ -8,7 +8,8 @@ function Donation() {
             <p>
                Contribuindo com qualquer valor, você se torna parte
                da nossa história, ajudando no desenvolvimento de projetos
-                e tornando possível a equipe participar de....
+                e tornando possível a equipe participar de novas competições
+                com cada vez mais qualidade.
             </p>
         </div>
     );

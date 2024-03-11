@@ -21,3 +21,33 @@
     margin-top: 0.5em;
     color: #272727;
 }
+
+.doc h2 {
+    margin-top: 1.5cm;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.doc img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15cm;
+}
+
+@media (max-width: 700px) {
+    .doc img {
+        width: 8cm;
+    }
+
+    .doc h1 {
+        font-size: 1.8em;
+        border-bottom: 1px solid #272727;
+    }
+
+    .doc p {
+        font-size: 1em;
+        margin-right: 4em;
+        margin-left: 4.5em;
+    }
+}

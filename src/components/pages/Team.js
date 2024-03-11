@@ -15,7 +15,7 @@ function Team() {
             <p>
                 Os integrantes da equipe ao desenvolverem os projetos, têm a possibilidade de adquirir maior experiência de trabalho em grupo, 
                 tal como colocar em prática diversos conhecimentos de engenharia adquiridos ao longo da graduação, possibilitando que os mesmos se formem mais preparados
-                para a vda profissional. Além disso, os mecanismos robóticos elaborados e construídos pela equipe são acirradamente colocados à prova em 
+                para a vida profissional. Além disso, os mecanismos robóticos elaborados e construídos pela equipe são acirradamente colocados à prova em 
                 competições de robótica nacionais e internacionais, podendo proporcionar grande reconhecimento da instituição e seus integrantes.
             </p>           
             <h1>Membros</h1>

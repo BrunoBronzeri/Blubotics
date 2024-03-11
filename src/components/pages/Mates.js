@@ -3,6 +3,9 @@ import { FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 import profile from '../../images/profilepic.png'
 
+import bruno from '../../images/profile/BrunoB.jpg'
+import gabriel from '../../images/profile/GabrielM.png'
+
 function Mates() {
     return (
         <div className={styles.container}>
@@ -10,7 +13,7 @@ function Mates() {
                 <div className={styles.card}>
                     <img src={profile} alt='pic'/>
                     <div>
-                        <h2>Marcos V. Matsuo</h2>
+                        <h2>Marcos Matsuo</h2>
                         <h3>Prof. Oreintador</h3>
                         <ul>
                             <li><FaLinkedin /></li>
@@ -19,9 +22,9 @@ function Mates() {
                     </div>
                 </div>
                 <div className={styles.card}>
-                <img src={profile} alt='pic'/>
+                <img src={bruno} alt='pic'/>
                     <div>
-                        <h2>Bruno B. Bronzeri</h2>
+                        <h2>Bruno Bronzeri</h2>
                         <h3>Representante</h3>
                         <ul>
                             <li>
@@ -40,6 +43,78 @@ function Mates() {
             </div>
             <div className={styles.profile}>
                 <div className={styles.card_below}>
+                    <img src={gabriel} alt='pic'/>
+                    <div>
+                        <h2>Gabriel Mariano</h2>
+                        <h3>Função na equipe</h3>
+                        <ul>
+                            <li>
+                                <a href='https://www.linkedin.com/in/gabrielsnts/'>
+                                    <FaLinkedin />
+                                </a>
+                            </li>
+                            <li>
+                                <a href='https://www.instagram.com/gmgoncalvess/'>
+                                    <FaInstagram />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div className={styles.card_below}>
+                    <img src={profile} alt='pic'/>
+                    <div>
+                        <h2>Bruno Igarashi</h2>
+                        <h3>Função na equipe</h3>
+                        <ul>
+                            <li>
+                                <a href='https://www.linkedin.com/in/bruno-igarashi-5a8084227/'>
+                                    <FaLinkedin />
+                                </a>
+                            </li>
+                            <li>
+                                <a href='https://www.instagram.com/bruno_igarashi/'>
+                                    <FaInstagram />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div className={styles.card_below}>
+                    <img src={profile} alt='pic'/>
+                    <div>
+                        <h2>Leonardo Schmitt</h2>
+                        <h3>Função na equipe</h3>
+                        <ul>
+                            <li>
+                                <a href='https://www.linkedin.com/in/leonardo-schmitt-controle-automacao/'>
+                                    <FaLinkedin />
+                                </a>
+                            </li>
+                            <li>
+                                <a href='https://www.instagram.com/spttleonardo/'>
+                                    <FaInstagram />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div className={styles.card_below}>
+                    <img src={profile} alt='pic'/>
+                    <div>
+                        <h2>Maria Clara</h2>
+                        <h3>Função na equipe</h3>
+                        <ul>
+                            <li><FaLinkedin /></li>
+                            <li>
+                                <a href='https://www.instagram.com/mariaclaracmo/'>
+                                    <FaInstagram />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                {/* <div className={styles.card_below}>
                     <img src={profile} alt='pic'/>
                     <div>
                         <h2>Nome Sobrenome</h2>
@@ -60,51 +135,7 @@ function Mates() {
                             <li><FaInstagram /></li>
                         </ul>
                     </div>
-                </div>
-                <div className={styles.card_below}>
-                    <img src={profile} alt='pic'/>
-                    <div>
-                        <h2>Nome Sobrenome</h2>
-                        <h3>Função na equipe</h3>
-                        <ul>
-                            <li><FaLinkedin /></li>
-                            <li><FaInstagram /></li>
-                        </ul>
-                    </div>
-                </div>
-                <div className={styles.card_below}>
-                    <img src={profile} alt='pic'/>
-                    <div>
-                        <h2>Nome Sobrenome</h2>
-                        <h3>Função na equipe</h3>
-                        <ul>
-                            <li><FaLinkedin /></li>
-                            <li><FaInstagram /></li>
-                        </ul>
-                    </div>
-                </div>
-                <div className={styles.card_below}>
-                    <img src={profile} alt='pic'/>
-                    <div>
-                        <h2>Nome Sobrenome</h2>
-                        <h3>Função na equipe</h3>
-                        <ul>
-                            <li><FaLinkedin /></li>
-                            <li><FaInstagram /></li>
-                        </ul>
-                    </div>
-                </div>
-                <div className={styles.card_below}>
-                    <img src={profile} alt='pic'/>
-                    <div>
-                        <h2>Nome Sobrenome</h2>
-                        <h3>Função na equipe</h3>
-                        <ul>
-                            <li><FaLinkedin /></li>
-                            <li><FaInstagram /></li>
-                        </ul>
-                    </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );

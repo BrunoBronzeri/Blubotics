@@ -46,7 +46,7 @@ function FooterMobile() {
                         </a>
                     </li>
                     <li>
-                        <a href='https://www.linkedin.com/in/bruno-bueno-bronzeri-261b51219/'>
+                        <a href='https://www.linkedin.com/in/blubotics-ufsc-351667250/'>
                             <FaLinkedin/>
                         </a>
                     </li>

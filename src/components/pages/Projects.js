@@ -1,31 +1,26 @@
 import styles from './Projects.module.css'
 
+import dev from '../../images/webDev.png'
+
 function Projects() {
     return (
         <div className={styles.doc}>
             <h1>Projetos da Equipe</h1>
             <p>
-                Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit. 
-                Sed sit amet ante leo. In quam diam, 
-                faucibus quis laoreet ac, 
-                rhoncus non justo. Mauris vulputate ac ex 
-                vitae ultricies. Phasellus odio nunc, 
-                feugiat ac leo a, gravida venenatis tortor. 
-                Aliquam tempor pulvinar diam. Phasellus nec
-                tellus gravida, feugiat justo ut, 
-                consequat tortor. Sed ut lacus egestas, 
-                mattis sem a, hendrerit tellus. 
-                Nulla facilisi. 
-                Proin sagittis nibh eget 
-                diam iaculis hendrerit.
+                Os projetos da equipe são desenvolvidos a partir de regulamentos de competições, dos quais os mesmos, afim de comptetir nesses eventos, 
+                buscam extrair o máximo de seu desenvolimento, almejando alcançar os melhores resultados possíveis.
             </p>
-            <h1>Robô Seguidor de Linha - Ziegler</h1>
+            <h2>Em desenvolvimento...</h2>
+            <div className={styles.inDev}>
+                <img src={dev} alt='pic'/>
+            </div>
+            
+            {/* <h1>Robô Seguidor de Linha - Ziegler</h1>
             <div>
                 <h2>No lugar de h2 importar outra file com 
                     as infos e imagem talvez
                     </h2>
-            </div>
+            </div> */}
         </div>
     );
 }

@@ -21,3 +21,11 @@
     margin-top: 0.5em;
     color: #272727;
 }
+
+.doc a {
+    text-align: justify;
+    font-size: x-large;
+    color: #272727;
+    text-decoration: none;
+    margin-left: 7.5%;
+}
