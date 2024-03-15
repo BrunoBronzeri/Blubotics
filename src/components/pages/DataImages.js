@@ -10,15 +10,15 @@ const data = [
     },
     {
         src: p2,
-        title: 'finalmente'
+        title: 'slide show1'
     },
     {
         src: p3,
-        title: 'está funcionando'
+        title: 'slide show2'
     },
     {
         src: p4,
-        title: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident'
+        title: 'slide show3'
     }
 ];
 
