@@ -7,6 +7,7 @@ import bruno from '../../images/profile/BrunoB.jpg'
 import gabriel from '../../images/profile/GabrielM.png'
 import maria from '../../images/profile/MariaC.jpeg'
 import brunoY from '../../images/profile/BrunoY.jpeg'
+import leo from '../../images/profile/Leo.jpeg'
 
 function Mates() {
     return (
@@ -83,7 +84,7 @@ function Mates() {
                     </div>
                 </div>
                 <div className={styles.card_below}>
-                    <img src={profile} alt='pic'/>
+                    <img src={leo} alt='pic'/>
                     <div>
                         <h2>Leonardo Schmitt</h2>
                         <h3>Função na equipe</h3>
