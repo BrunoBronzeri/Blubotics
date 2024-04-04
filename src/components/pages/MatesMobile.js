@@ -5,6 +5,9 @@ import { FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 import bruno from '../../images/profile/BrunoB.jpg'
 import gabriel from '../../images/profile/GabrielM.png'
+import maria from '../../images/profile/MariaC.jpeg'
+import brunoY from '../../images/profile/BrunoY.jpeg'
+import leo from '../../images/profile/Leo.jpeg'
 
 function MatesMobile() {
     return(
@@ -60,7 +63,7 @@ function MatesMobile() {
                     </div>
                 </div>
                 <div className={styles.card}>
-                    <img src={profile} alt='pic'/>
+                    <img src={brunoY} alt='pic'/>
                     <div>
                         <h2>Bruno Igarashi</h2>
                         <h3>Função na equipe</h3>
@@ -79,7 +82,7 @@ function MatesMobile() {
                     </div>
                 </div>
                 <div className={styles.card}>
-                    <img src={profile} alt='pic'/>
+                    <img src={leo} alt='pic'/>
                     <div>
                         <h2>Leonardo Schmitt</h2>
                         <h3>Função na equipe</h3>
@@ -98,7 +101,7 @@ function MatesMobile() {
                     </div>
                 </div>
                 <div className={styles.card}>
-                    <img src={profile} alt='pic'/>
+                    <img src={maria} alt='pic'/>
                     <div>
                         <h2>Maria Clara</h2>
                         <h3>Função na equipe</h3>
