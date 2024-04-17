@@ -38,7 +38,7 @@ function SlideShow({ images }) {
     );
 
     useEffect(() => {
-        setTimer(setTimeout(() => Incremet(1), 5000));
+        setTimer(setTimeout(() => Incremet(1), 8000));
     }, [count]);
 
     return (

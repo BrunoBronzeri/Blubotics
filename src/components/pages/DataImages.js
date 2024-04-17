@@ -1,4 +1,4 @@
-import p1 from '../../images/paisagem.png'
+import p1 from '../../images/vagasEquipe.png'
 import p2 from '../../images/paisagem01.png'
 import p3 from '../../images/paisagem02.png'
 import p4 from '../../images/paisagem03.png'
@@ -6,7 +6,7 @@ import p4 from '../../images/paisagem03.png'
 const data = [
     {
         src: p1,
-        title: 'slide show'
+        title: 'Desafie seus limites, expanda seus horizontes! Faça parte da nossa equipe.'
     },
     {
         src: p2,
