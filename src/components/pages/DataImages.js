@@ -1,7 +1,7 @@
 import p1 from '../../images/vagasEquipe.png'
 import p2 from '../../images/paisagem01.png'
-import p3 from '../../images/paisagem02.png'
-import p4 from '../../images/paisagem03.png'
+import p3 from '../../images/paisagem01.png'
+import p4 from '../../images/paisagem01.png'
 
 const data = [
     {

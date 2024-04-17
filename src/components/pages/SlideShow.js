@@ -52,7 +52,7 @@ function SlideShow({ images }) {
             <div className={styles.carousel} ref={carousel}>
                     {images.map((img, idx) => (
                         <div className={styles.item} key={`${idx}-${img.title}`}>
-                            <Link to={img.to}>
+                            <Link to={img.to} className={styles.link}>
                                 <img src={img.src} alt={img.title} />
                                 <p>{img.title}</p>
                             </Link>
