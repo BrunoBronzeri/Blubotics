@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 import styles from './SlideShow.module.css';
 
 function SlideShow({ images }) {
@@ -49,12 +50,14 @@ function SlideShow({ images }) {
             <div className={styles.btn_r} onClick={() => Incremet(1)} />
 
             <div className={styles.carousel} ref={carousel}>
-                {images.map((img, idx) => (
-                    <div className={styles.item} key={`${idx}-${img.title}`}>
-                        <img src={img.src} alt={img.title} />
-                        <p>{img.title}</p>
-                    </div>
-                ))}
+                    {images.map((img, idx) => (
+                        <div className={styles.item} key={`${idx}-${img.title}`}>
+                            <Link to={img.to}>
+                                <img src={img.src} alt={img.title} />
+                                <p>{img.title}</p>
+                            </Link>
+                        </div>
+                    ))}
             </div>
         </div>
     );

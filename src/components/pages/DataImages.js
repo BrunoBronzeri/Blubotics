@@ -6,19 +6,23 @@ import p4 from '../../images/paisagem03.png'
 const data = [
     {
         src: p1,
-        title: 'Desafie seus limites, expanda seus horizontes! Faça parte da nossa equipe.'
+        title: 'Desafie seus limites, expanda seus horizontes! Faça parte da nossa equipe.',
+        to: '/team#saibamais'
     },
     {
         src: p2,
-        title: 'slide show1'
+        title: 'slide show1',
+        to: ''
     },
     {
         src: p3,
-        title: 'slide show2'
+        title: 'slide show2',
+        to: ''
     },
     {
         src: p4,
-        title: 'slide show3'
+        title: 'slide show3',
+        to: ''
     }
 ];
 
