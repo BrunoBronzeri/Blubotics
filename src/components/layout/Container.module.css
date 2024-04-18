@@ -7,7 +7,7 @@
 }
 
 .min-height {
-    min-height: 75%;
+    min-height: 70%;
 }
 
 .start {
@@ -17,4 +17,10 @@
 .column {
     flex-direction: column;
     justify-content: flex-start;
+}
+
+@media (max-width: 700px) {
+    .min-height{
+        min-height: 60%
+    } 
 }

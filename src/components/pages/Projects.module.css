@@ -35,6 +35,41 @@
     width: 15cm;
 }
 
+.display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-left: 10%;
+}
+
+.display img {
+    width: 200px;
+    max-height: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.display h2,
+.display h3 {
+    color: #a8a9b9;
+    text-align: center;
+}
+
+.card {
+    border: 1px solid #272727;
+    border-radius: 10px;
+    margin-right: 3%;
+    margin-left: 3%;
+    background-color: #272727;
+    margin-top: 2em;
+}
+
+.card:hover {
+    box-shadow: 2px 4px 8px 1px #013462;
+    transition: 0.3s ease;
+}
+
 @media (max-width: 700px) {
     .doc {
         margin: 0.5em;

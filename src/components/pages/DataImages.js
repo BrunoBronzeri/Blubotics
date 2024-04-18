@@ -1,7 +1,7 @@
 import p1 from '../../images/vagasEquipe.png'
-import p2 from '../../images/paisagem01.png'
-import p3 from '../../images/paisagem01.png'
-import p4 from '../../images/paisagem01.png'
+import p2 from '../../images/robo/SeguidorLinha.png'
+// import p3 from '../../images/paisagem01.png'
+// import p4 from '../../images/paisagem01.png'
 
 const data = [
     {
@@ -11,19 +11,19 @@ const data = [
     },
     {
         src: p2,
-        title: 'slide show1',
-        to: ''
+        title: '',
+        to: '/projects'
     },
-    {
-        src: p3,
-        title: 'slide show2',
-        to: ''
-    },
-    {
-        src: p4,
-        title: 'slide show3',
-        to: ''
-    }
+    // {
+    //     src: p3,
+    //     title: 'slide show2',
+    //     to: ''
+    // },
+    // {
+    //     src: p4,
+    //     title: 'slide show3',
+    //     to: ''
+    // }
 ];
 
 export default data
