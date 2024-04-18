@@ -1,7 +1,7 @@
 .logo {
     display: flex;
     justify-content: space-between;
-    background-color: #272727;
+    background-image: linear-gradient(to bottom, #272727, #173153);
 }
 
 .logo img {

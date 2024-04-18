@@ -1,4 +1,4 @@
-import logo from '../../images/logo_blub.png'
+import logo from '../../images/logo_blub02.png'
 import styles from './Logo.module.css'
 
 import { Link } from 'react-router-dom';
