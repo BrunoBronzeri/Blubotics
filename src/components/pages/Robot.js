@@ -13,7 +13,7 @@ function Robot() {
                 </div>
             </div>
             <div>
-                <h1>Como vai ser o layout desse filha da puta?</h1>
+                <h1>Definir layout</h1>
             </div>
         </div>
     )
