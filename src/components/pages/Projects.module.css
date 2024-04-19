@@ -38,7 +38,7 @@
 .display {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     margin-left: 10%;
 }
 
@@ -54,6 +54,7 @@
 .display h3 {
     color: #a8a9b9;
     text-align: center;
+    margin-top: 5%;
 }
 
 .card {
