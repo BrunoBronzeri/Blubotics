@@ -1,17 +1,20 @@
 import styles from './Projects.module.css'
 
-import LF from '../../images/robo/RobotSegLinha.png'
-
-function Robot() {
+function Robot({ projects }) {
     return (
+
         <div className={styles.display}>
-            <div className={styles.card}>
-                <img src={LF} alt='pic'/>
-                <div>
-                    <h2>Frank</h2>
-                    <h3>Categoria: Seguidor de Linha</h3>
+
+            {projects.map((card, idx) => (
+                <div className={styles.card} key={`${idx}-${card.title}`}>
+                    <img src={card.src} alt={card.name} />
+                    <div>
+                        <h2>{card.name}</h2>
+                        <h3>Categoria: {card.role}</h3>
+                    </div>
                 </div>
-            </div>
+            ))}
+
             <div>
                 <h1>Robô Seguidor de Linha</h1>
                 <p>Primeiro desenvolvimento da equipe. O seguidor de linha conta

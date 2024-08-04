@@ -2,7 +2,8 @@ import p1 from '../../images/profile/GabrielM.png'
 import p2 from '../../images/profile/BrunoY.jpeg'
 import p3 from '../../images/profile/MariaC.jpeg'
 import p4 from '../../images/profile/Leo.jpeg'
-
+import ppic from '../../images/profilepic.png'
+ 
 const data = [
     {
         src: p1,
@@ -31,6 +32,62 @@ const data = [
         fnc: 'Função na Equipe',
         linkedin: 'https://www.linkedin.com/in/leonardo-schmitt-controle-automacao/',
         insta: 'https://www.instagram.com/spttleonardo/'
+    },
+    {
+        src: ppic,
+        name: '',
+        fnc: 'Função na Equipe',
+        linkedin: '',
+        insta: ''
+    },
+    {
+        src: ppic,
+        name: '',
+        fnc: 'Função na Equipe',
+        linkedin: '',
+        insta: ''
+    },
+    {
+        src: ppic,
+        name: '',
+        fnc: 'Função na Equipe',
+        linkedin: '',
+        insta: ''
+    },
+    {
+        src: ppic,
+        name: '',
+        fnc: 'Função na Equipe',
+        linkedin: '',
+        insta: ''
+    },
+    {
+        src: ppic,
+        name: '',
+        fnc: 'Função na Equipe',
+        linkedin: '',
+        insta: ''
+    },
+    {
+        src: ppic,
+        name: '',
+        fnc: 'Função na Equipe',
+        linkedin: '',
+        insta: ''
+    },
+    {
+        src: ppic,
+        name: '',
+        fnc: 'Função na Equipe',
+        linkedin: '',
+        insta: ''
+    },
+    {
+        src: ppic,
+        name: '',
+        fnc: 'Função na Equipe',
+        linkedin: '',
+        insta: ''
     },
 ];
 

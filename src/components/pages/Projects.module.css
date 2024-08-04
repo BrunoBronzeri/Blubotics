@@ -44,17 +44,23 @@
 
 .display img {
     width: 200px;
-    max-height: 250px;
+    height: 250px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     background-color: whitesmoke;
 }
 
-.display h2,
+.display h2 {
+    color: #a8a9b9;
+    font-size: 1.75em;
+    text-align: center;
+    margin-top: 5%;
+}
+
 .display h3 {
     color: #a8a9b9;
     text-align: center;
-    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .card {

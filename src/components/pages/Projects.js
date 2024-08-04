@@ -1,4 +1,5 @@
 import Robots from './Robot';
+import data from './DataProjects'
 
 import styles from './Projects.module.css'
 
@@ -11,7 +12,7 @@ function Projects() {
                 buscam extrair o máximo de seu desenvolimento, almejando alcançar os melhores resultados possíveis.
             </p>
             <div>
-                <Robots />
+                <Robots projects={data}/>
             </div>
         </div>
     );
