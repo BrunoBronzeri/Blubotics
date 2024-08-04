@@ -1,7 +1,9 @@
-import Mates from "./Mates";
-import MatesMobile from "./MatesMobile";
+import Members from "./Members";
+// import Mates from "./Mates";
+import MembersMobile from "./MembersMobile";
+import data from './DataMembers'
 
-import styles from './Mates.module.css'
+import styles from './Members.module.css'
 
 function Team() {
     return (
@@ -20,8 +22,9 @@ function Team() {
             </p>           
             <h1>Membros</h1>
             <div>
-                <Mates />
-                <MatesMobile />
+                {/* <Mates /> */}
+                <Members members={data}/>
+                <MembersMobile members={data}/>
             </div>
             <h1>Quer fazer parte da equipe?</h1>
             <p>

@@ -6,7 +6,7 @@ import p2 from '../../images/robo/SeguidorLinha.png'
 const data = [
     {
         src: p1,
-        title: 'Desafie seus limites, expanda seus horizontes! Faça parte da nossa equipe.',
+        title: 'Desafie seus limites, expanda seus horizontes! Faça parte da nossa equipe!',
         to: '/team#saibamais'
     },
     {

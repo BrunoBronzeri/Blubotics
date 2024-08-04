@@ -35,7 +35,7 @@ function SlideShow({ images }) {
             );
             setCount((c) => c + delta);
         },
-        [count, images.length,timer]
+        [count, images.length, timer]
     );
 
     useEffect(() => {
