@@ -1,21 +1,25 @@
 import styles from './MembersMobile.module.css'
 import { FaInstagram, FaLinkedin } from 'react-icons/fa'
 
-import profile from '../../images/profilepic.png'
 import bruno from '../../images/profile/BrunoB.jpg'
+import matsuo from '../../images/profile/MarcosM.png'
 
 function MatesMobile({ members }) {
     return(
         <div className={styles.container}>
             <div className={styles.profile}>
                 <div className={styles.card}>
-                    <img src={profile} alt='pic'/>
+                    <img src={matsuo} alt='pic'/>
                     <div>
                         <h2>Marcos Matsuo</h2>
                         <h3>Prof. Oreintador</h3>
                         <ul>
                             <li><FaLinkedin /></li>
-                            <li><FaInstagram /></li>
+                            <li>
+                                <a href='https://www.instagram.com/matsuo.marcos/'>
+                                    <FaInstagram />
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -23,7 +27,7 @@ function MatesMobile({ members }) {
                     <img src={bruno} alt='pic'/>
                     <div>
                         <h2>Bruno Bronzeri</h2>
-                        <h3>Representante</h3>
+                        <h3>Capitão da Equipe</h3>
                         <ul>
                             <li>
                                 <a href='https://www.linkedin.com/in/bruno-bueno-bronzeri-261b51219/'>

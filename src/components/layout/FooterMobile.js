@@ -11,8 +11,8 @@ function FooterMobile() {
                     <li>
                         <p>
                             <FaMapMarked />
-                            <a href='https://goo.gl/maps/65iC7vnZtxhU6Zpk7'>
-                                Rua João Pessoa, 2514
+                            <a href='https://maps.app.goo.gl/RinAGu8mt26UWpKA6'>
+                                Rua Eng. Udo Deeke, 485 - 
                                 Blumenau-SC
                             </a>
                         </p>
