@@ -1,6 +1,6 @@
 import p1 from '../../images/vagasEquipe.png'
 import p2 from '../../images/robo/SeguidorLinha.png'
-// import p3 from '../../images/paisagem01.png'
+import p3 from '../../images/RXP24_pessoal.png'
 // import p4 from '../../images/paisagem01.png'
 
 const data = [
@@ -14,11 +14,11 @@ const data = [
         title: '',
         to: '/projects'
     },
-    // {
-    //     src: p3,
-    //     title: 'slide show2',
-    //     to: ''
-    // },
+    {
+        src: p3,
+        title: 'RoboCore Experience 2024',
+        to: '/competition'
+    }
     // {
     //     src: p4,
     //     title: 'slide show3',

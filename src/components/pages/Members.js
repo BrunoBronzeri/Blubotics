@@ -23,7 +23,7 @@ function Mates({ members }) {
                 <img src={bruno} alt='pic'/>
                     <div>
                         <h2>Bruno Bronzeri</h2>
-                        <h3>Representante</h3>
+                        <h3>Capitão da Equipe</h3>
                         <ul>
                             <li>
                                 <a href='https://www.linkedin.com/in/bruno-bueno-bronzeri-261b51219/'>
