@@ -1,5 +1,6 @@
 import seguidor1 from '../../images/robo/RobotSegLinha.png'
 import sumoLego1 from '../../images/robo/tachi-AI.png'
+import perseguidor from '../../images/robo/Perseguidor.png'
 import generiCRobot from '../../images/robo/GenericRobot.png'
 
 const data = [
@@ -19,7 +20,7 @@ const data = [
         role: 'Ant Weight'
     },
     {
-        src: generiCRobot,
+        src: perseguidor,
         name: 'Runner',
         role: 'Perseguidor de Linha'
     },
